@@ -1,0 +1,33 @@
+{
+  "name": "@thezaxzz/baileys",
+  "version": "1.0.0",
+  "description": "Custom Node.js library by thezaxzz",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf lib",
+    "prepare": "npm run build"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "library"
+  ],
+  "author": "thezaxzz",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thezaxzz/Baileys.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thezaxzz/Baileys/issues"
+  },
+  "homepage": "https://github.com/thezaxzz/Baileys#readme"
+}
